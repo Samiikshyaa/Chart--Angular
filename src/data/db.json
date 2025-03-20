@@ -1,0 +1,56 @@
+{
+    "products": [
+      {
+        "price": 250,
+        "category": "sports",
+        "status": true
+      },
+      {
+        "price": 150,
+        "category": "electronics",
+        "status": false
+      },
+      {
+        "price": 300,
+        "category": "furniture",
+        "status": true
+      },
+      {
+        "price": 100,
+        "category": "books",
+        "status": true
+      },
+      {
+        "price": 200,
+        "category": "clothing",
+        "status": false
+      }
+    ],
+    "sales": [
+      {
+        "year": 2015,
+        "amount": 5000,
+        "colorcode": "green"
+      },
+      {
+        "year": 2016,
+        "amount": 7000,
+        "colorcode": "blue"
+      },
+      {
+        "year": 2017,
+        "amount": 6000,
+        "colorcode": "red"
+      },
+      {
+        "year": 2018,
+        "amount": 8000,
+        "colorcode": "yellow"
+      },
+      {
+        "year": 2019,
+        "amount": 7500,
+        "colorcode": "purple"
+      }
+    ]
+  }

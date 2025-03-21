@@ -9,5 +9,8 @@ export const routes: Routes = [
     },{
         path: 'chart',
         component: ChartComponent
+    },{
+        path: '',
+        component:ChartComponent
     }
 ];

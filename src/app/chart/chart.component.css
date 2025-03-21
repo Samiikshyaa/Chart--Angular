@@ -1,0 +1,5 @@
+.chart-container {
+    width: 100%;
+    max-width: 50%; /* Adjust this value as needed */
+    margin: auto;
+  }

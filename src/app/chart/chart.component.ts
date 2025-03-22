@@ -33,6 +33,9 @@ export class ChartComponent implements OnInit {
         this.Renderbarchar(this.labeldata, this.realdata, this.colordata);
         this.Renderpiechar(this.labeldata, this.realdata, this.colordata);
         this.Renderdonutchar(this.labeldata, this.realdata, this.colordata);
+        this.Renderpachar(this.labeldata, this.realdata, this.colordata);
+        this.Renderredarchar(this.labeldata, this.realdata, this.colordata);
+        this.Renderlineshotchar(this.labeldata, this.realdata, this.colordata);
       }
     });
   }
@@ -49,6 +52,17 @@ export class ChartComponent implements OnInit {
     this.Renderchar(labeldata,valuedata,colordata,'donutchart','doughnut')
   } 
 
+  Renderpachar(labeldata: any, valuedata: any, colordata: any){
+    this.Renderchar(labeldata,valuedata,colordata,'pachart','polarArea')
+  } 
+
+  Renderredarchar(labeldata: any, valuedata: any, colordata: any){
+    this.Renderchar(labeldata,valuedata,colordata,'redarchart','radar')
+  } 
+
+  Renderlineshotchar(labeldata: any, valuedata: any, colordata: any){
+    this.Renderchar(labeldata,valuedata,colordata,'lschart','line')
+  } 
 
   Renderchar(labeldata: any, valuedata: any, colordata: any, chartid:string, charttype: any) {
     const mychar = new Chart(chartid, {
